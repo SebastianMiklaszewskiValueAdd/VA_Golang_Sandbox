@@ -1,6 +1,13 @@
 # GOLAND SANDBOX README
 
+## THIS REPO IDEA
+
+Idea for this repository is to learn golang together in monorepo environment, which allow us to code review our code and
+let to see potentially solutions. Golang has easy and dev-friendly monorepo building process. Just create own project
+root folder and have fun.
+
 ## GOLANG INSTALLATION
+
 https://go.dev/doc/install
 
 PREFERABLE IDE: GOLAND
@@ -11,7 +18,8 @@ Goland has predefined options to that, but if you don't have goland use this ste
 
 1. Create folder for your project
 2. Create main.go
-3. Fill main.go with 
+3. Fill main.go with
+
 ```
 package main
 
@@ -19,7 +27,9 @@ func main() {
 
 }
 ```
+
 4. Create go.mod file and fill with
+
 ```
 module example
 
